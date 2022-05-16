@@ -1,9 +1,9 @@
 import React from 'react';
-// import "./index.css";
+import style from './style.module.scss';
 
 const AppContent: React.FC = () => {
    return (
-      <main>
+      <main className={style.content}>
          Main
       </main>
    )
