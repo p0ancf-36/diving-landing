@@ -1,5 +1,6 @@
 import React from 'react';
 import index from './index.module.css';
+import './variables.scss';
 
 import AppHeader from './AppHeader';
 import AppContent from './AppContent';

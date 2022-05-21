@@ -1,0 +1,17 @@
+.footer {
+   flex: 0 0 var(--nav-height);
+
+   color: var(--secondary-text-color);
+   background-color: var(--nav-color);
+
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+
+   $pd: min(calc(var(--ident-size) * 5), 5%);
+
+   padding-left: $pd;
+   padding-right: $pd;
+
+   font-size: 0.8rem;
+}

@@ -1,0 +1,4 @@
+.section {
+   min-height: calc(100vh - var(--nav-height));
+   padding: var(--ident-size) calc((100% - var(--section-width)) / 2);
+}

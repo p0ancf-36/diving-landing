@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 // import 'antd/dist/antd.css';
 import './index.css';
+import './global.scss';
 
 import App from './components/App';
 

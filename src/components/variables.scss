@@ -1,0 +1,16 @@
+:root {
+   --nav-height: 3rem;
+   --logo-size: calc(var(--nav-height) - .5rem);
+
+   --nav-color: #193B5B;
+
+   --main-color: #DBDBDB;
+   --secondary-color: #9c9c9c;
+
+   --main-text-color: #0C0C0C;
+   --secondary-text-color: #F0F0F0;
+
+   --ident-size: 1rem;
+
+   --section-width: min(1200px, 100%);
+}

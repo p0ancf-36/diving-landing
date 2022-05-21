@@ -1,0 +1,32 @@
+.registration {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+
+   h2 {
+      font-size: 2rem;
+      font-weight: 500;
+      color: var(--main-text-color);
+   }
+
+   form {
+
+      input[type=text],
+      button[type=submit] {
+         display: block;
+         border: solid var(--main-text-color) 1px;
+         border-radius: 5px;
+         font-size: 1rem;
+         height: 2rem;
+         width: 20rem;
+         // padding: calc(var(--ident-size) / 2);
+         margin: calc(var(--ident-size) / 2);
+         background-color: var(--secondary-color);
+      }
+
+      input[type=text] {
+         padding: 0 var(--ident-size);
+      }
+   }
+}

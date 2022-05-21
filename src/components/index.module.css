@@ -1,16 +1,6 @@
 .wrapper {
+   min-height: 100vh;
+
    display: flex;
    flex-direction: column;
-}
-
-.wrapper>* {
-   flex: 1 1 100%;
-}
-
-.wrapper>*:first-child {
-   flex: 0 0 var(--nav-height);
-}
-
-.wrapper>*:last-child {
-   flex: 0 0 var(--nav-height);
 }
