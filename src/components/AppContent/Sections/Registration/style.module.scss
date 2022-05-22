@@ -7,6 +7,7 @@
    h2 {
       font-size: 2rem;
       font-weight: 500;
+		text-align: center;
       color: var(--main-text-color);
    }
 
@@ -19,8 +20,7 @@
          border-radius: 5px;
          font-size: 1rem;
          height: 2rem;
-         width: 20rem;
-         // padding: calc(var(--ident-size) / 2);
+         width: min(20rem, 100vw);
          margin: calc(var(--ident-size) / 2);
          background-color: var(--secondary-color);
       }
@@ -29,4 +29,30 @@
          padding: 0 var(--ident-size);
       }
    }
+}
+
+@media (max-width: 20rem) {
+	.registration{
+		form {
+			input[type=text],
+      	button[type=submit] {
+				margin: 0;
+				border-radius: 0;
+
+				border: 0;
+				border-top: solid var(--main-text-color) 1px;
+			}
+		}
+	}
+}
+
+.error {
+	margin: 0 calc(var(--ident-size) / 2);
+	padding-top: var(--ident-size);
+	border: solid var(--secondary-color) 1px;
+	text-align: center;
+	
+	>* {
+		padding-bottom: var(--ident-size);
+	}
 }
