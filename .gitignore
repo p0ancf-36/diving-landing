@@ -1,0 +1,16 @@
+# /src
+# /scripts
+# /public
+# /config
+# /demo
+# /node_modules
+# package-lock.json
+# package.json
+# README.md
+# tsconfig.json
+
+*
+!/build
+!/build/*
+!/build/*/**
+!.gitignore
